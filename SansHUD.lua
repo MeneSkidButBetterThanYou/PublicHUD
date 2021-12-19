@@ -3,7 +3,6 @@ local plr = plrs.LocalPlayer
 local plrGui = plr:WaitForChild("PlayerGui")
 	local ui1 = plrGui:WaitForChild("UI")
 	local ui = ui1:WaitForChild("Ui")
-	spawn(function()
 		ui.UpdateLog:Destroy()
 		ui.UpdateLogInfo:Destroy()
 		ui.Info.ServerInfo.Position = UDim2.new(0.050, 0,0.001, 0)
